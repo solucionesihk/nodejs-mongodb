@@ -26,3 +26,10 @@ To build for production, run build:
 ```
 $ npm run build
 ```
+## import database
+
+To import /resources/teams.json
+$ mongoimport --db footballdb --collection teams --file teams.json
+
+To import /resources/players.json
+$ mongoimport --db footballdb --collection players --file players.json
